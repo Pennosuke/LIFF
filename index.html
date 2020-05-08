@@ -57,7 +57,7 @@
     }
 
     async function scanCode() {
-      const result = aait liff.scanCode()
+      const result = await liff.scanCode()
       document.getElementById("scanCode").append(result.value)
     }
 
@@ -128,7 +128,7 @@
       getEnvironment()
       getUserProfile()
       getContext()
-      getFriendship()
+      //getFriendship()
       // createUniversalLink()
     }
     main()
